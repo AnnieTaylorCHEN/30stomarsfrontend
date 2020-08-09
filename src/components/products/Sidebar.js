@@ -4,7 +4,9 @@ import React from 'react'
 export default function Sidebar() {
     return (
         <div>
-            <section className="shop-sidebar">
+            <h3>DEMO only.</h3>
+            <p>Please don't use real information for testing.</p>
+            {/* <section className="shop-sidebar">
                 <div className="shop-sidebar__item">
                     <h6><a href="/shop" >Everything</a></h6>
                 </div>
@@ -23,7 +25,7 @@ export default function Sidebar() {
                     <a href="/shop?sortBy=name:asc" >A to Z</a>
                     <a href="/shop?sortBy=name:desc" >Z to A</a>
                 </div>
-            </section>
+            </section> */}
         </div>
     )
 }
